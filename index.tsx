@@ -19,7 +19,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     /*const mystyle = {
         color: "darkblue",
-              backgroundColor: "DodgerBlue",
+              backgroundColor: "DodgerBlue", 
                     padding: "10px",
                           fontFamily: "Arial"
                               };*/
