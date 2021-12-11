@@ -1,3 +1,12 @@
-h1, p {
-  font-family: Lato;
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  color: aliceblue;
+  background-color:royalblue;
+  
 }
+h1{
+  font-size:40px;
+}
+ p{
+   font-size:20px;
+ }
