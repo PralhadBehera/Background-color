@@ -17,10 +17,17 @@ class App extends Component<AppProps, AppState> {
   }
 
   render() {
+const mystyle = {
+        color: "darkblue",
+              backgroundColor: "DodgerBlue",
+                    padding: "10px",
+                          fontFamily: "Arial"
+                              };
+
     return (
-      <div>
+      <div style={mystyle}>
         <Hello name={this.state.name} />
-        <p>
+        <p style={mystyle}>
           Start editing to see some magic happen :)
         </p>
       </div>
