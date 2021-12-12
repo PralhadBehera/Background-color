@@ -17,20 +17,16 @@ class App extends Component<AppProps, AppState> {
   }
 
   render() {
-    /*const mystyle = {
-        color: "darkblue",
-              backgroundColor: "DodgerBlue", 
-                    padding: "10px",
-                          fontFamily: "Arial"
-                              };*/
+
 
     return (
       <div>
         <Hello name={this.state.name} />
-        <p style={{ color: 'black', marginLeft: '70%' }}>
+        <p>
           <b>Start editing to see some magic happen :)</b>
         </p>
       </div>
+
     );
   }
 }
